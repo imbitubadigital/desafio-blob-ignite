@@ -1,1 +1,64 @@
-// TODO
+.content{
+  width: 100%;
+  max-width: 720px;
+  padding: 0 10px;
+  margin: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+
+  a {
+    display: block;
+    margin-bottom: 60px;
+    transform: opacity 0.4s;
+
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+
+}
+
+
+.postArticle{
+
+  h1{
+    font-weight: 700;
+    color: var(--gray-100);
+    font-size: 1.75rem;
+    line-height: 2.4rem;
+  }
+  p{
+    color: var(--gray-300);
+    font-size: 1.125rem;
+    line-height: 1.36rem;
+    margin: 0.8rem 0;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+
+    div {
+      span, time {
+        color: var(--gray-300);
+        font-size: 0.875rem;
+        margin-left: 5px;
+      }
+    }
+
+    + div{
+      margin-left: 2rem;
+    }
+  }
+}
+
+.loadMore {
+  color:  var(--pink-500);
+  background: transparent;
+  border: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 60px;
+
+}

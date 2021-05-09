@@ -1,1 +1,96 @@
-// TODO
+.banner {
+  width: 100%;
+}
+.postContentArticle{
+
+  width: 100%;
+  max-width: 720px;
+  padding: 0 10px;
+  margin: 80px auto;
+
+  header {
+    margin-bottom: 64px;
+    h2{
+      font-weight: 700;
+      color: var(--gray-100);
+      font-size: 3rem;
+      line-height: 3.625rem;
+    }
+
+    div {
+      display: flex;
+      flex-direction: row;
+      margin-top: 5px;
+
+      div {
+        span, time {
+          color: var(--gray-300);
+          font-size: 0.875rem;
+          margin-left: 5px;
+        }
+      }
+
+      + div{
+        margin-left: 2rem;
+      }
+    }
+
+
+  }
+
+
+
+}
+
+
+
+.postBody {
+  h1, h2, h3, h4, h5, h5{
+    font-weight: 600;
+    color: var(--gray-100);
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin: 2rem 0;
+  }
+
+
+  p{
+    color: var(--gray-300);
+    font-size: 1.125rem;
+    line-height: 1.36rem;
+    margin: 0.8rem 0;
+    text-align: justify;
+
+  }
+
+  a{
+    color: var(--pink-500);
+  }
+
+  b, strong {
+    font-weight: 700;
+    color: var(--gray-100);
+  }
+
+  img{
+    width: 100%;
+    margin: 2rem 0;
+  }
+
+  ul{
+    margin: 2rem 0;
+  }
+
+}
+
+.loadMore {
+  color:  var(--pink-500);
+  background: transparent;
+  border: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 60px;
+
+}
+
+

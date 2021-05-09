@@ -1,1 +1,17 @@
-// TODO
+.header {
+  width: 100%;
+  max-width: 720px;
+  padding: 0 10px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  &[data-type='large']{
+    height: 155px;
+  }
+  &[data-type='small']{
+    height: 105px;
+  }
+}
+
