@@ -6,6 +6,6 @@ Nesse desafio, foi criado um mine blog com Prismic
 
 ### Antonio Fernandes
 
-![](/src/assets/blog-ignite.png)
+![](/src/assets/blog-home-ignite.png)
 
 ![](/src/assets/blog-ignite-single.png)
